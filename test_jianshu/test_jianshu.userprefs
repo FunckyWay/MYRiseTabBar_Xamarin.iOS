@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{13B182A2-9731-44D8-A7DA-67860F6539E0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="test_jianshu/AppDelegate.cs">
+    <Files>
+      <File FileName="test_jianshu/ViewController.cs" Line="12" Column="28" />
+      <File FileName="test_jianshu/AppDelegate.cs" Line="38" Column="16" />
+      <File FileName="test_jianshu/MYTabBarItem.cs" Line="20" Column="105" />
+      <File FileName="test_jianshu/MYTabBar.cs" Line="186" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.test__jianshu PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.14179261-314E-4CE4-BD5D-D0079F263467" />
+</Properties>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="29">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="28">
+            <objects>
+                <collectionViewController id="29" sceneMemberID="viewController" customClass="ViewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="30">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="34">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="33" reuseIdentifier="GuideCell">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="29" id="31"/>
+                            <outlet property="delegate" destination="29" id="32"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="35" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="124" y="-3"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Default.png" width="320" height="480"/>
+        <image name="guide1Background.png" width="320" height="480"/>
+        <image name="guide2Background568h.png" width="320" height="568"/>
+        <image name="guide3Background568h.png" width="320" height="568"/>
+        <image name="guide4Background568h.png" width="320" height="568"/>
+        <image name="guide1Background568h.png" width="320" height="568"/>
+        <image name="guideLargeText1.png" width="320" height="42"/>
+        <image name="guideLargeText2.png" width="320" height="42"/>
+        <image name="guideLargeText3.png" width="320" height="42"/>
+        <image name="guideLargeText4.png" width="320" height="41.5"/>
+        <image name="guideLine.png" width="1483.5" height="568"/>
+        <image name="guideSmallText1.png" width="320" height="18"/>
+        <image name="guideSmallText2.png" width="320" height="18"/>
+        <image name="guideSmallText3.png" width="320" height="17.5"/>
+        <image name="guideSmallText4.png" width="320" height="17.5"/>
+        <image name="guideStart.png" width="161" height="40"/>
+        <image name="guide1.png" width="320" height="568"/>
+        <image name="guide2.png" width="320" height="568"/>
+        <image name="guide3.png" width="320" height="568"/>
+        <image name="guide4.png" width="320" height="568"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina47"/>
+    </simulatedMetricsContainer>
+</document>
